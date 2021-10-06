@@ -23,7 +23,7 @@ export const AboutUs = () => {
           <TeamMemberTextContainer>
             <TeamH2>Piotr Maestro!</TeamH2>
             <TeamH3>klawisz - akordeon - wokal - wodzirej</TeamH3>
-            <TeamP>Ogromne doświadczenie! Zna wszystkie utwory świata, zagra każdą biesiadę, uwielbia pieśni rosyjskie, prowadzi imprezy dowcipnie i kulturalnie. Prawdziwy Maestro!</TeamP>
+            <TeamP>Ogromne doświadczenie! Zna wszystkie utwory świata we wszystkich językach, zagra każdą biesiadę, uwielbia pieśni rosyjskie, prowadzi imprezy dowcipnie i kulturalnie. Człowiek orkiestra, Prawdziwy Maestro!</TeamP>
           </TeamMemberTextContainer>
         </TeamMemberCard>
         <TeamMemberCard>
@@ -32,7 +32,7 @@ export const AboutUs = () => {
           </ImgWrap>
           <TeamH2>Aneta</TeamH2>
           <TeamH3>altówka - wokal</TeamH3>
-          <TeamP>Z Piotrem Maestro tworzy muzyczny dueat od lat! Każdej imprezie nadaje romantycznego, góralskiego charakteru pięknymi dźwiękami altówki. Goście są zawsze zachwyceni!</TeamP>
+          <TeamP>Z Piotrem Maestro tworzy muzyczny duet od 10 lat! Absolwentka UMFC w Białymstoku, prześliczna altowiolistka! Każdej imprezie nadaje romantycznego, góralskiego charakteru pięknymi dźwiękami altówki. Goście są zawsze zachwyceni!</TeamP>
         </TeamMemberCard>
         <TeamMemberCard>
           <ImgWrap>

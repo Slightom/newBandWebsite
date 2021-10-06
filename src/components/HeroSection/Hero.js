@@ -23,12 +23,12 @@ export const HeroSection = () => {
         <VideoBg autoPlay loop muted src={Video} type="video/mp4" />
       </HeroBg>
       <HeroContent>
-        <HeroH1>THE BEST SONG</HeroH1>
-        <HeroP>Zadbaj o świetną zabawę na swoim weselu razem z nami!</HeroP>
+        <HeroH1>GRAM<span style={{ color: '#01bf71' }}>BIT</span></HeroH1>
+        <HeroP>Zadbaj o świetną zabawę na swojej imprezie razem z nami!</HeroP>
         <NavLinks
           to="offer"
           smooth={true}
-          duration={800}
+          duration={1200}
           spy={true}
           exact="true"
           offset={-80}

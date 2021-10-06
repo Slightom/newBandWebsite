@@ -73,6 +73,7 @@ export const NavLinks = styled(LinkS)`
 
     &.active {
         border-bottom: 6px solid #01bf71;
+        border-top: 6px solid #01bf71;
         color: #01bf71;
     }
 

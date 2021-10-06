@@ -16,7 +16,7 @@ export const Offer = () => {
     }
 
     const description =
-        'Kochamy swoją pracę! Prowadzimy imprezy kulturalnie, z energią i uśmiechem, a połączenie doświadczenia z młodością pozwala nam trafiać w gusta młodszych i starszych nastolatków. Gramy w niezmiennym składzie od kilku lat! Naszym celem jest Twoja satysfakcja oraz jak największa frekwencja na parkiecie! Dysponujemy własnym oświetleniem scenicznym oraz sprzętem wysokiej jakości: Bose, Mackie, Yamaha, Shure, Akg.\n\n* prowadzenie imprez\n* marsz na wyjście z domu\n* oprawa ślubu\n* biesiada przy stołach\n* pomysłowa animacja uczestników imprezy\n* szeroki repertuar muzyczny';
+        'Kochamy swoją pracę! Prowadzimy imprezy kulturalnie, z energią i uśmiechem, a połączenie doświadczenia z młodością pozwala nam trafiać w gusta młodszych i starszych nastolatków. Gramy w niezmiennym składzie od kilku lat! Naszym celem jest Wasza satysfakcja oraz jak największa frekwencja na parkiecie! Dysponujemy własnym oświetleniem scenicznym oraz sprzętem wysokiej jakości: Bose, Mackie, Yamaha, Shure, Akg.\n\n* prowadzenie imprez (wesela, studniówki, imprezy firmowe, plenerowe, dancingi... i inne)\n* marsz na wyjście z domu\n* oprawa ślubu\n* biesiada przy stołach\n* pomysłowa animacja uczestników imprezy\n* szeroki repertuar muzyczny';
     return (
         <>
             <OfferContainer lightBg={lightBg} id={'offer'}>

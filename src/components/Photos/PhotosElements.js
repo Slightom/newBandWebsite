@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const PhotosContainer = styled.div`
   color: #fff;
-  background: ${({ lightBg }) => (lightBg ? "#f9f9f9" : "#010606")};
+  background: black;
 `;
 
 export const PhotosWrapper = styled.div`
@@ -13,6 +13,7 @@ export const PhotosWrapper = styled.div`
 
   z-index: 1;
   min-height: 860px;
+  padding: 5px 20px;
 
 //   @media screen and (max-width: 1000px) {
 //     grid-template-columns: 1fr;
@@ -22,3 +23,13 @@ export const PhotosWrapper = styled.div`
 //     grid-template-columns: 1fr;
 //   }
 `;
+
+export const GalleryLoader = styled.div`
+  background: rgba(0, 0, 0, .9);
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+`

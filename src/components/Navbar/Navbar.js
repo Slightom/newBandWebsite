@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { FaBars } from "react-icons/fa";
 import { IconContext } from "react-icons/lib";
-import { animateScroll as scroll } from "react-scroll";
+import { Link } from "react-router-dom";
+import { animateScroll as scroll, ScrollLink } from "react-scroll";
 import {
   Nav,
   NavbarContainer,
@@ -42,7 +43,7 @@ export const Navbar = ({ toggle }) => {
                 <NavLinks
                   to="start"
                   smooth={true}
-                  duration={800}
+                  duration={1200}
                   spy={true}
                   exact="true"
                   offset={-80}
@@ -54,7 +55,7 @@ export const Navbar = ({ toggle }) => {
                 <NavLinks
                   to="offer"
                   smooth={true}
-                  duration={800}
+                  duration={1200}
                   spy={true}
                   exact="true"
                   offset={-80}
@@ -66,7 +67,7 @@ export const Navbar = ({ toggle }) => {
                 <NavLinks
                   to="aboutUs"
                   smooth={true}
-                  duration={800}
+                  duration={1200}
                   spy={true}
                   exact="true"
                   offset={-80}
@@ -76,14 +77,26 @@ export const Navbar = ({ toggle }) => {
               </NavItem>
               <NavItem>
                 <NavLinks
-                  to="photos"
+                  to="galleryMain"
                   smooth={true}
-                  duration={800}
+                  duration={1200}
                   spy={true}
                   exact="true"
                   offset={-80}
                 >
                   GALERIA
+                </NavLinks>
+              </NavItem>
+              <NavItem>
+                <NavLinks
+                  to="movies"
+                  smooth={true}
+                  duration={1200}
+                  spy={true}
+                  exact="true"
+                  offset={-80}
+                >
+                  FILMY
                 </NavLinks>
               </NavItem>
             </NavMenu>

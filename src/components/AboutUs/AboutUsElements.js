@@ -4,9 +4,8 @@ export const AboutUsContainer = styled.div`
   min-height: 860px;
   display: flex;
   flex-direction: row;
-  background: "#f9f9f9";
   margin-bottom: 60px;
-
+  scroll-margin: 80px;
 `;
 
 export const AboutUsWrapper = styled.div`
@@ -29,12 +28,12 @@ export const TeamMemberCard = styled.div`
   flex-direction: column;
 
   align-items: center;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  // box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
   transition: all 0.4s ease-in-out;
-  border-right: 1px solid green;
-  border-left: 1px solid green;
+  // border-right: 1px solid green;
+  // border-left: 1px solid green;
   &:hover {
-    transform: scale(1.04);
+    transform: scale(1.02);
     transition: all 0.4s ease-in-out;
     cursor: pointer;
   }
