@@ -49,7 +49,7 @@ export const VideoBg = styled.video`
 
 export const HeroContent = styled.div`
   max-width: 1200px;
-  background: rgba(0, 0, 0, .2);
+  background: rgba(0, 0, 0, .4);
   border-radius: 25px;
   position: absolute;
   padding: 8px 24px;

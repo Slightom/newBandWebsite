@@ -23,7 +23,8 @@ export const HeroSection = () => {
         <VideoBg autoPlay loop muted src={Video} type="video/mp4" />
       </HeroBg>
       <HeroContent>
-        <HeroH1>GRAM<span style={{ color: '#01bf71' }}>BIT</span></HeroH1>
+        {/* <HeroH1>GRAM<span style={{ color: '#01bf71' }}>BIT</span></HeroH1> */}
+        <img src={require('../../images/grambitlogo.png').default} height='100px' />
         <HeroP>Zadbaj o świetną zabawę na swojej imprezie razem z nami!</HeroP>
         <NavLinks
           to="offer"
