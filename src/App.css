@@ -22,10 +22,45 @@
   border-radius: 5px;
 }
 
-/* .galleryPhoto img {
-  transition: transform 0.5s ease;
+iframe {
+  width: 100%;
+  height: 100%;
 }
 
-.galleryPhoto:hover img {
-  transform: scale(1.5);
-} */
+.videoWrapper {
+  position: relative;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio */
+}
+
+.videoWrapper-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.homeSliderSquare {
+  text-align: center;
+  width: 100% !important;
+  margin-top: 10px;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+  border-radius: 6px;
+  -moz-border-radius: 6px;
+  border: 4px solid #01bf71;
+}
+
+#ytimage {
+  transition: all 0.4s ease-in-out;
+}
+
+#ytimage:hover {
+  transform: scale(1.02);
+  transition: all 0.4s ease-in-out;
+  cursor: pointer;
+}
+
+.selected {
+  color: pink;
+}

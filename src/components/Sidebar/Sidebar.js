@@ -10,7 +10,7 @@ import {
     SidebarRoute
 } from './SidebarElements'
 
-export const Sidebar = ({isOpen, toggle}) => {
+export const Sidebar = ({ isOpen, toggle }) => {
     return (
         <SidebarContainer isOpen={isOpen} onClick={toggle}>
             <Icon>
@@ -18,14 +18,13 @@ export const Sidebar = ({isOpen, toggle}) => {
             </Icon>
             <SidebarWrapper>
                 <SidebarMenu>
-                    <SidebarLink to='about' onClick={toggle}>About</SidebarLink>
-                    <SidebarLink to='discover' onClick={toggle}>Discover</SidebarLink>
-                    <SidebarLink to='services' onClick={toggle}>Services</SidebarLink>
-                    <SidebarLink to='signup' onClick={toggle}>Sign Up </SidebarLink>
+                    <SidebarLink to='start' activeClassName="selected" offset={-80} onClick={toggle}>START</SidebarLink>
+                    <SidebarLink to='offer' activeClassName="selected" offset={-80} onClick={toggle}>OFERTA</SidebarLink>
+                    <SidebarLink to='aboutUs' activeClassName="selected" offset={-80} onClick={toggle}>O NAS</SidebarLink>
+                    <SidebarLink to='galleryMain' offset={-80} onClick={toggle}>GALERIA</SidebarLink>
+                    <SidebarLink to='movies' offset={-80} onClick={toggle}>FILMY</SidebarLink>
+                    <SidebarLink to='contact' offset={-80} onClick={toggle}>KONTAKT</SidebarLink>
                 </SidebarMenu>
-                <SideBtnWrap>
-                    <SidebarRoute to='/signin'>Sign Up</SidebarRoute>
-                </SideBtnWrap>
             </SidebarWrapper>
         </SidebarContainer>
     )

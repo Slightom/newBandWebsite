@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
-import { Sidebar } from "../components/Sidebar/Sidebar";
 import { Photos } from "../components/Photos/Photos";
 import { GalleryNavbar } from "../components/Navbar/GalleryNavbar";
+import { GallerySidebar } from "../components/Sidebar/GallerySidebar";
 
 export const Gallery = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -18,7 +18,7 @@ export const Gallery = () => {
 
     return (
         <>
-            <Sidebar isOpen={isOpen} toggle={toggle} />
+            <GallerySidebar isOpen={isOpen} toggle={toggle} />
             <GalleryNavbar toggle={toggle} />
             <Photos />
         </>

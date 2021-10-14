@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { FaBars } from "react-icons/fa";
 import { IconContext } from "react-icons/lib";
-import { Link } from "react-router-dom";
 import { animateScroll as scroll, ScrollLink } from "react-scroll";
 import {
   Nav,
@@ -97,6 +96,18 @@ export const Navbar = ({ toggle }) => {
                   offset={-80}
                 >
                   FILMY
+                </NavLinks>
+              </NavItem>
+              <NavItem>
+                <NavLinks
+                  to="contact"
+                  smooth={true}
+                  duration={1200}
+                  spy={true}
+                  exact="true"
+                  offset={-80}
+                >
+                  KONTAKT
                 </NavLinks>
               </NavItem>
             </NavMenu>

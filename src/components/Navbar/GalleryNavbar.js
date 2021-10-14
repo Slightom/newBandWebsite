@@ -59,6 +59,16 @@ export const GalleryNavbar = ({ toggle }) => {
                                     GALERIA
                                 </NavLinks>
                             </NavItem>
+                            <NavItem>
+                                <NavLinks to="/#movies">
+                                    FILMY
+                                </NavLinks>
+                            </NavItem>
+                            <NavItem>
+                                <NavLinks to="/#contact">
+                                    KONTAKT
+                                </NavLinks>
+                            </NavItem>
                         </NavMenu>
                     </NavbarContainer>
                 </Nav>
