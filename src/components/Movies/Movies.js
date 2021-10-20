@@ -10,7 +10,8 @@ export const Movies = () => {
         <>
             <MoviesContainer id={'movies'}>
                 <MoviesWrapper>
-                    <Grid container spacing={2}>
+                    <p>this tab is unavailable now</p>
+                    {/* <Grid container spacing={2}>
                         <Grid item xs={12} md={6}>
                             <div class="homeSliderSquare">
                                 <div class="videoWrapper">
@@ -59,7 +60,7 @@ export const Movies = () => {
                                 </div>
                             </div>
                         </Grid>
-                    </Grid>
+                    </Grid> */}
                     {/* <div style={{ gridColumn: '1/2', gridRow: '1/2', border: '1px solid green' }}>
                         <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', height: '100%' }}>
                             <div>cssd</div>
