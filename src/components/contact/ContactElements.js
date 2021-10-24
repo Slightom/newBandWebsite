@@ -4,7 +4,7 @@ export const ContactContainer = styled.div`
   color: #fff;
   background: ${({ lightBg }) => (lightBg ? "#f9f9f9" : "#010606")};
   scroll-margin: 80px;
-  min-height: 860px;
+  min-height: 960px;
   
   display: grid;
   align-items: center;

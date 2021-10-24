@@ -10,7 +10,7 @@ export const MoviesContainer = styled.div`
 `;
 
 export const MoviesWrapper = styled.div`
-  min-height: 860px;
+  min-height: 960px;
   padding: 50px 20px;
   max-width: 1300px;
   margin: 0 auto;
